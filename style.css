@@ -15,3 +15,24 @@ body {
     text-align: center;
     padding: 15px;
 }
+.sidebar {
+    float:left;
+    background-color: rgb(64, 195, 103);
+    width: 120px;
+    min-height: 620px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    front-size: 18px;
+}
+.option_sidebar {
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 2px dotted #444444
+}
+.option_sidebar:hover {
+background-color: #f36742;
+color:white;
+cursor: pointer;
+}
