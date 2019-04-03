@@ -32,7 +32,7 @@ body {
     border-bottom: 2px dotted #444444
 }
 .option_sidebar:hover {
-background-color: #f36742;
-color:white;
-cursor: pointer;
+    background-color: #f36742;
+    color:white;
+    cursor: pointer;
 }
