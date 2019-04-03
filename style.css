@@ -33,6 +33,6 @@ body {
 }
 .option_sidebar:hover {
     background-color: #f36742;
-    color:white;
+    color: white;
     cursor: pointer;
 }
