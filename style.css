@@ -4,14 +4,40 @@ body {
     front-size: 20px;
     color: white;
 }
+
 .container {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .header {
-    background-color: black;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 15px;
+}
+
+.sidebar {
+    float: left;
+    background-color: #1ff2b7;
+    width: 120px;
+    min-height: 620px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    front-size: 18px;
+}
+
+.option_sidebar {
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 2px dotted #444444;
+}
+
+.option_sidebar:hover {
+    background-color: #f36742;
+    color: white;
+    cursor: pointer;
 }
