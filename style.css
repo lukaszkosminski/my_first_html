@@ -41,3 +41,47 @@ body {
     color: white;
     cursor: pointer;
 }
+
+.content1 {
+    float: left;
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: black;
+    min-height: 620px;
+    border-right: 2px dotted #444444;
+    width: 265px
+}
+
+.content2 {
+    float: left;
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: black;
+    min-height: 620px;
+    border-right: 2px dotted #444444;
+    width: 265px
+}
+
+.content3 {
+    float: left;
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: black;
+    min-height: 620px;
+    width: 265px
+    
+}
+
+.footer {
+    clear: both;
+    background-color: #000000;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
