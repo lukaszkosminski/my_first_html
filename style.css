@@ -1,7 +1,7 @@
 body {
     background-color: gray;
     font-family: Verdana;
-    front-size: 20px;
+    font-size: 20px;
     color: white;
 }
 
@@ -26,7 +26,7 @@ body {
     padding: 10px;
     color: black;
     text-align: center;
-    front-size: 18px;
+    font-size: 18px;
 }
 
 .option_sidebar {
@@ -42,7 +42,7 @@ body {
     cursor: pointer;
 }
 
-.content1 {
+.content {
     float: left;
     font-size: 18px;
     height: 25px;
@@ -50,31 +50,17 @@ body {
     background-color: #e5e5e5;
     color: black;
     min-height: 620px;
+    display: inline;
+}   
+   
+.options {
+    width: 258px;    
     border-right: 2px dotted #444444;
-    width: 265px
+    min-height: 600px;
 }
 
-.content2 {
-    float: left;
-    font-size: 18px;
-    height: 25px;
-    padding: 10px;
-    background-color: #e5e5e5;
-    color: black;
-    min-height: 620px;
-    border-right: 2px dotted #444444;
-    width: 265px
-}
-
-.content3 {
-    float: left;
-    font-size: 18px;
-    height: 25px;
-    padding: 10px;
-    background-color: #e5e5e5;
-    color: black;
-    min-height: 620px;
-    width: 265px    
+.options:last-of-type {
+    border-right: 0;
 }
 
 .footer {
