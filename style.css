@@ -44,19 +44,19 @@ body {
 
 .content {
     float: left;
-    font-size: 18px;
-    height: 25px;
+    font-size: 17px;    
     padding: 10px;
     background-color: #e5e5e5;
     color: black;
     min-height: 620px;
-    display: inline;
+    display: inline;    
 }   
    
 .options {
     width: 258px;    
     border-right: 2px dotted #444444;
     min-height: 600px;
+    text-align: center;    
 }
 
 .options:last-of-type {
