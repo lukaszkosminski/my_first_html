@@ -1,7 +1,7 @@
 body {
     background-color: gray;
     font-family: Verdana;
-    front-size: 20px;
+    font-size: 20px;
     color: white;
 }
 
@@ -26,7 +26,7 @@ body {
     padding: 10px;
     color: black;
     text-align: center;
-    front-size: 18px;
+    font-size: 18px;
 }
 
 .option_sidebar {
@@ -40,4 +40,33 @@ body {
     background-color: #f36742;
     color: white;
     cursor: pointer;
+}
+
+.content {
+    float: left;
+    font-size: 17px;    
+    padding: 10px;
+    background-color: #e5e5e5;
+    color: black;
+    min-height: 620px;
+    display: inline;    
+}   
+   
+.options {
+    width: 258px;    
+    border-right: 2px dotted #444444;
+    min-height: 600px;
+    text-align: center;
+}
+
+.options:last-of-type {
+    border-right: 0;
+}
+
+.footer {
+    clear: both;
+    background-color: #000000;
+    color: white;
+    text-align: left;
+    padding: 15px;
 }
